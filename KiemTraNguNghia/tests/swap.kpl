@@ -1,13 +1,11 @@
-PROGRAM swap;
-VAR 
-    X: INTEGER;
-    Y: INTEGER;
-    Z: INTEGER;
+PROGRAM SwapTest;
+CONST d = 20;
+VAR  a:INTEGER;
+     b:INTEGER;
+     c:INTEGER;
+     res:INTEGER;
+
 BEGIN
-    X := 10;
-    Y := 20;
-    Z := 30;
-    X, Y, Z := Y, Z, X;
-    CALL WRITEI(X);
-    CALL WRITEI(Y);
+  res := sum a+b , d+d-c, sum d/b, d+c;
+  CALL WRITEI(res);
 END.
